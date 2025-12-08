@@ -1,0 +1,48 @@
+[
+  {
+    "id": 3759,
+    "date": "2019-08-22T14:15:22Z",
+    "member_email": "eric@gitguardian.com",
+    "member_name": "Eric",
+    "member_id": 1243,
+    "api_token_id": "41f016f9-d44b-451c-a816-df041c057c6b",
+    "ip_address": "string",
+    "target_ids": [
+      "1243",
+      "2bb559aa-bd72-48ca-b4ba-bf09b1c9a658"
+    ],
+    "action_type": "READ",
+    "event_name": "user.logged_in",
+    "data": "{type: github_sso}"
+  }
+]
+
+
+curl https://api.exchangeratesapi.com.au/latest \
+  -H "Authorization: Bearer your_api_key_here"
+
+  {
+  "success": true,
+  "timestamp": 1725080400,
+  "base": "AUD",
+  "date": "2025-08-31",
+  "rates": {
+    "USD": 0.643512,
+    "EUR": 0.562934,
+    "GBP": 0.487421,
+    "JPY": 96.832100,
+    "NZD": 1.094200,
+    "TWI": 60.500000
+  }
+}
+​
+
+curl --location --request POST 'https://api.apyhub.com/data/convert/currency' \
+--header 'Content-Type: application/json' \
+--header 'apy-token: {{token}}' \
+--data-raw '{
+    "source":"eur",
+    "target":"inr"
+}'
+
+
