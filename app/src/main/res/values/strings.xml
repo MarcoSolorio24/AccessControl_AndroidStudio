@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QR_Checker</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">VCLam Panel</string>
+</resources>

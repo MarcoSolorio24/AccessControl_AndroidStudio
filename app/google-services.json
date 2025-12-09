@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338896101416",
+    "project_id": "qr-checker-c9f67",
+    "storage_bucket": "qr-checker-c9f67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338896101416:android:d1c165fddd176b6798d51d",
+        "android_client_info": {
+          "package_name": "com.example.qr_checker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALkbrTTxMlnVdnbWUWIHS-5a4UOulSVOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="VC Laminations S.A. de C.V."
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/blue2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toBottomOf="@+id/textView_login_now"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar15"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:background="@color/blue3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar4"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:background="@color/blue4"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar15"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar5"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:background="@color/blue5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar4"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:background="@color/blue6"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar5"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar7"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:background="@color/blue7"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar6"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar20"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:background="@color/blue8"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar7"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageLogo2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="REGISTER"
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_email_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText_password_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editText_email_register"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/editText_email_register"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email_register" />
+
+    <TextView
+        android:id="@+id/textView_login_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Alredy had an account. Login Now"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_password_register" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="117dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/zxing_custom_viewfinder_laser"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/editText_password_register"
+        app:layout_constraintStart_toStartOf="@+id/editText_password_register"
+        app:layout_constraintTop_toBottomOf="@+id/editText_password_register" />
+</androidx.constraintlayout.widget.ConstraintLayout>
